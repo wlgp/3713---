@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <title>"논리회로-4"</title>
+  <meta charset="utf-8">
+  <style>
+body{
+      margin:0;
+    }
+    a {
+      color:#00498c;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">♧논리회로♧</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1_사용 이유.html">논리회로 사용 이유</a></li>
+      <li><a href="2_이진수 변환.html">이진수 변환</a></li>
+      <li><a href="3_게이트.html">논리 게이트</a></li>
+      <li><a href="4_불 대수.html">불 대수 공식</a></li>
+    </ol>
+    <div id="article">
+        <h2>불 대수의 정의와 기본 공식의 간소화</h2>
+        <p>
+          ▷불 대수란?
+          <br><br>1) 하나의 명제가 참 또는 거짓인가를 판단하는 데 이용되는 수학적인 방법
+          <br>2) 동일한 성능을 갖는 더 간단한 회로로 만들 수 있다.
+        <br>  3) 부울 대수를 사용하면 변수들의 진리표 관계를 대수식으로 표현하기에 용이하다.
+
+           <br><br>▷불 대수의 기본 공식
+          <br><br>1) 교환법칙 :
+          <br>A ∙ B = B ∙ A
+          <br>A + B = B + A
+
+          <br><br>2) 결합법칙 :
+        <br>A ∙ (B ∙ C) = (A ∙ B) ∙ C
+          <br>(A + B) + C = A + (B + C)
+
+          <br><br>3) 분배법칙 :
+          <br>A ∙ (B + C) = (A ∙ B) +(A ∙ C)
+          <br>A + (B ∙ C) = (A + B) ∙ (A + C)
+
+
+        <br><br>4) 멱등법칙 :
+          <br>A + A = A
+          <br>A ∙ A = A
+
+        <br><br>5) 보수법칙 :
+          <br>A + A’ = 1
+          <br>A ∙ A’ = 0
+
+          <br><br>6) 항등법칙 :
+          <br>A + 0 = A
+          <br>A + 1 = 1
+          <br>A ∙ 0 = 0
+          <br>A ∙ 1 = A
+
+          <br><br>7) 콘센서스법칙 :
+          <br>AB + BC + CA’ = AB + CA’
+
+          <br><br>8) 드모르강 :
+          <br>(A + B)’ = A’ ∙ B’
+          <br>(A ∙ B)’ = A’ + B’
+
+          <br><br>9) 복원법칙 :
+          <br>A’’ = A
+
+          <br><br>10) 흡수법칙 :
+          <br>A + A ∙ B = A
+          <br>A ∙ A + B = A
+
+        <br><br>▷불 대수의 간소화 :
+          <br> 불 대수의 기본공식을 이용하여 간소화 한다   </p>
+      </div>
+  </div>
+  </body>
+  </html>

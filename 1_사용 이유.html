@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>"논리회로-1"</title>
+  <meta charset="utf-8">
+  <style>
+body{
+      margin:0;
+    }
+    a {
+      color:#00498c;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">♧논리회로♧</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1_사용 이유.html">논리회로 사용 이유</a></li>
+      <li><a href="2_이진수 변환.html">이진수 변환</a></li>
+      <li><a href="3_게이트.html">논리 게이트</a></li>
+      <li><a href="4_불 대수.html">불 대수 공식</a></li>
+    </ol>
+    <div id="article">
+        <h2>논리회로가 사용되는 이유</h2>
+        <p>
+        ☞컴퓨터는 논리 회로를 통해 연산하는 기계입니다. 이 논리 회로는 전기 신호를 구분하는 기능이 있습니다.
+        더 구체적으로 말하면 5v의 전기 신호가 발생하면 1 0v이면 0으로 인식한다는 것입니다.
+        <br>전기 신호를 인간과 같이 1부터 10까지를 구분하여 연산할수는 없을까요?
+        10개의 신호를 구분하기 위해서는 전기 신호를 강약을 정해 구분해야 할텐데 예를 들면 0.5v단위로 전기 신호를 나누어 구분하는 것은 현실적으로 힘들다고 할 수 있습니다.
+        왜나하면 실제로는 내부적인 요인 또는 노이즈와 같은 외부적인 요인으로 인해 정확한 전압을 측정하기 어려울 뿐만 아니라 이를 위해서는 논리 회로를 더욱 정교하게 구성해야 하고 정확한 전압을 측정하기 위한 대기 시간이 길어지기 때문에 더 많은 비용이 발생하게 됩니다.
+        <br>결과적으로 컴퓨터는 1, 0으로 단순하게 두가지의 경우만을 구분하여 반복적으로 계산하는 것이 훨씬 유리하게 되는 것입니다.
+  <img src="5v.png">
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
